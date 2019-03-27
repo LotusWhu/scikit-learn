@@ -595,6 +595,7 @@ class AdaBoostClassifier(BaseWeightBoosting, ClassifierMixin):
 
         return sample_weight, estimator_weight, estimator_error
 
+      
     def predict(self, X):
         """Predict classes for X.
 
